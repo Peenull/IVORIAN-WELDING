@@ -1,0 +1,33 @@
+.view-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+}
+.view-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.view-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  height: auto;
+  box-shadow: 4px 2px 0px #202020;
+
+  margin-top: 5px;
+}
+.view-category-link {
+  padding: 0 20px;
+  margin: 10px 0px;
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+.view-other-category-label {
+  font-size: 24px;
+}

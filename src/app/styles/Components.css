@@ -1,0 +1,99 @@
+.top-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.top-product-wrapper {
+  width: 100%;
+}
+.top-product-image {
+  border-radius: 10px;
+}
+.top-product p {
+  font-size: 25px;
+}
+.products-mapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 7px;
+  padding: 5 10px;
+}
+.saved-mapper {
+  /* height: 100%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 7px;
+  padding: 0 10px;
+}
+.product-wrapper {
+  height: 250px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  width: 100%;
+}
+.product-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.contact-on-product {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 25px 0;
+  width: 100%;
+  max-width: 500px;
+}
+.contact-on-product h1 {
+  font-size: 22px;
+}
+.contact-container {
+  display: grid;
+  max-width: 500px;
+  align-self: center;
+  width: 100%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 10px;
+}
+.contact-link {
+  border-radius: 5px;
+  width: 90%;
+  padding: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 4px 3px 0px #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.contact-link:hover {
+  opacity: 0.8;
+}
+.save-button {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  max-width: 200px;
+  border: 1px solid;
+  color: #cc00aa;
+  margin-bottom: 10px;
+}
+
+.share-product {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  max-width: 200px;
+  border: 1px solid;
+  color: #00b991;
+}

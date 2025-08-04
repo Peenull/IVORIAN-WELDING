@@ -1,0 +1,69 @@
+.home-page {
+  /* padding: 0 10px; */
+}
+.hero-section-wrapper {
+  padding: 0 10px;
+  width: 100%;
+  height: 75vh;
+}
+.hero-section {
+  background-image: url("/images/12.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: #000000a0;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+.hero-section h1 {
+  color: #fff;
+  font-size: 34px;
+}
+.hero-section h2 {
+  font-size: 22px;
+  color: #eeff00aa;
+}
+.hero-section p {
+  font-size: 20px;
+  color: #00b7ff;
+}
+.hero-section-linking-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  /* flex-direction: column; */
+  gap: 5px;
+}
+.hero-section-location {
+  grid-column: span 2;
+  border: 1px solid;
+}
+.hero-section-share-site {
+  grid-column: span 2;
+  border: 1px solid;
+  cursor: pointer;
+}
+.hero-section-contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 0px #202020;
+  padding: 3px 10px;
+  color: #fff;
+}
+.home-page-best-design-label {
+  font-size: 25px;
+  color: #cfcfcf;
+  font-weight: bold;
+  width: 100%;
+}

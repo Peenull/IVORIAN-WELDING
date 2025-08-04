@@ -1,0 +1,58 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 10px;
+}
+.about-name {
+  font-size: 40px;
+  line-height: 0.9;
+  text-decoration: underline;
+}
+.about-div {
+  box-shadow: 0 0 0px;
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.about-page p {
+  font-size: 18px;
+}
+
+.about-headings {
+  font-size: 24px;
+  background-color: #242424ee;
+  border-radius: 5px;
+}
+
+.about-contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: center;
+  border-radius: 5px;
+}
+.about-contact-link {
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+  color: white;
+}
+.about-description-categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  gap: 5px;
+}
+.about-description-category {
+  background-color: #24242499;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #b9b9b9;
+}
